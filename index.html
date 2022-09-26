@@ -1,44 +1,42 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  <link re
   
   <title>Frontend Mentor | Product preview card component</title>
-  <link rel="stylesheet" href="style.css">
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-</head>
-<body class="flex-center">
 
-  <main class="card flex-center">
-    <picture class="card__picture">
-      <source media="(max-width:767px)" srcset="./images/image-product-mobile.jpg">
-      <img  src="./images/image-product-desktop.jpg" alt="parfum" title=" Gabrielle Essence Eau De Parfum  ">
-    </picture>
-    
-    <div class="card__info">
-      <p class="card__info--title">  Perfume</p>
-      <h1> Gabrielle Essence Eau De Parfum    </h1>
-      <p> A floral, solar and voluptuous interpretation composed by Olivier Polge, 
-        Perfumer-Creator for the House of CHANEL. 
+  <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+
+  <div class="card">
+    <div class="img_container">
+      <img src="images/image-product-desktop.jpg" alt="image">
+    </div>
+  
+    <div class="details_container">
+      <p class="perfume">PERFUME</p>
+      <h1 class="name">Gabrielle Essence Eau De Parfum</h1>
+      <p class="description">
+        A floral, solar and voluptuous interpretation composed by Olivier Polge, Perfumer-Creator for the House of CHANEL.
       </p>
-      <div class="card__price flex-center">
-        <ins>  $149.99 </ins>
-        <del>  $169.99</del>
+
+      <div class="price_container">
+        <h1 class="current_price">$149.99</h1>
+        <p class="old_price">$169.99</p>
       </div>
-      <button class="btn btn--primary">
-        <img src="images/icon-cart.svg" alt="Cart Icon"> Add to Cart
+
+      <button class="btn">
+        <img src="images/icon-cart.svg" alt="">
+        Add to Cart
       </button>
     </div>
-  </main>  
-  <!--
-  <footer class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
-  </footer>
--->
+  
+  </div>
+    
 </body>
 </html>
