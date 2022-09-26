@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.frame {
+    display: flex;
+    background-color: #f3eae3;
+    margin: 200px 100px;
+    padding: 30px;
+    border-radius: 10px;
+}
+
+img {
+    width: 300px;
+    margin: 40px auto;
+    border-radius: 10px;
+}
+.card {
+    background-color: #fff;
+    padding: 10px;
+    margin: 0;
+    margin-top: 40px;
+    border-radius: 10px;
+    height: 430px;
+    line-height: 2;
+}
+.perfume {
+    text-transform: uppercase;
+    opacity: 80%;
+    font-family: sans-serif;
+    font-size: 12px;
+}
+button {
+    padding: 30px;
+}
